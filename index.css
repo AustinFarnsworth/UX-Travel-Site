@@ -118,11 +118,32 @@ section {
 form {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   width: 50%;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
 
-  margin: 0 200px 0 200px;
+  margin: 25px 200px 0 325px;
+}
 
-  border: 1px solid blue;
+form > label {
+  margin-top: 15px;
+}
+
+form > input {
+  border-radius: 3px;
+  padding: 10px;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+}
+
+.return-date {
+  margin-bottom: 15px;
+}
+
+.booking-title {
+  display: flex;
+  justify-content: center;
 }
