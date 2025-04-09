@@ -147,3 +147,20 @@ form > input {
   display: flex;
   justify-content: center;
 }
+
+.FAQ {
+  margin: 25px 200px 0 325px;
+}
+
+.info {
+  padding: 5px;
+}
+
+.info > li {
+  list-style-type: "- ";
+  margin: 5px;
+}
+
+.about {
+  padding: 15px;
+}
